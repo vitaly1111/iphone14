@@ -5,7 +5,7 @@ module.exports = {
 	mode: 'development',
 		entry: {
 		main: './src/js/main.js',
-		second: './src/js/second.js',
+
 			
 	},
 	output: {

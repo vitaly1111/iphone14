@@ -1,14 +1,18 @@
-import {asd} from './modules/func'
-import {enableScroll,disableScroll,handlerModal} from '../blocks/popup/popup'
+import {scroll} from './modules/scroll'
+import { tabs } from './modules/tabs'
+import { accorodion } from './modules/accordion';
+import { getData } from './modules/getData';
 
 const pageOverlayModal=document.querySelector('.page__overlay_modal');
 const modalClose=document.querySelector('.modal__close');
 const presentOrderBtn=document.querySelector('.header__burger')
 
 
-asd()
+scroll()
+tabs()
+accorodion();
+getData();
 //popup()
 
-handlerModal(presentOrderBtn,pageOverlayModal,'page__overlay_modal_open',modalClose,'slow')
 
 //# sourceMappingURL=main.js.map
